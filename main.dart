@@ -8,13 +8,13 @@ void main() {
   // tripplePrint("Lorem Ipsum, " * 3); //oder +3 besser in Funktion packen?
 
 // Aufgabe 3
-  String firstName = "Johnny";
-  String lastName = "Depp";
-  String firstName2 = "Tom";
-  String lastName2 = "Cruise";
+  String firstName = "JOHNNY";
+  String lastName = "DEPP";
+  String firstName2 = "TOM";
+  String lastName2 = "CRUISE";
 
-  reverseInitials("Y.", "P.");
-  reverseInitials("M.", "E.");
+  reverseInitials(firstName, lastName);
+  reverseInitials(firstName2, lastName2);
 }
 
 // Funktion Aufgabe 1
@@ -34,4 +34,5 @@ void tripplePrint(String y) {
 void reverseInitials(String first, String last) {
   print(first);
   print(last);
+  print("${first[first.length - 1]}. ${last[last.length - 1]}.");
 }
