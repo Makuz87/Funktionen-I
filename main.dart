@@ -1,35 +1,37 @@
 void main() {
   //Aufgabe 1
-  printNumber(4);
-  printNumber(2025);
-  printNumber(298745896321);
+  // printNumber(4);
+  // printNumber(2025);
+  // printNumber(298745896321);
 
 //Aufgabe 2
-  tripplePrint("Lorem Ipsum, " * 3);
+  // tripplePrint("Lorem Ipsum, " * 3); //oder +3 besser in Funktion packen?
 
 // Aufgabe 3
   String firstName = "Johnny";
   String lastName = "Depp";
+  String firstName2 = "Tom";
+  String lastName2 = "Cruise";
 
-  // String firstName1 = "Tom";
-  // String lastName1 = "Cruise";
+  reverseInitials("Y.", "P.");
+  reverseInitials("M.", "E.");
 }
 
-//Aufgabe 1
+// Funktion Aufgabe 1
 
 void printNumber(int x) {
   print(x);
 }
 
-//Aufgabe 2
+// Funktion Aufgabe 2
 
 void tripplePrint(String y) {
   print(y);
 }
 
-//Aufgabe 3
+// Funktion Aufgabe 3
 
 void reverseInitials(String first, String last) {
-  print(first[first.length]);
-  print(last[first.length]);
+  print(first);
+  print(last);
 }
